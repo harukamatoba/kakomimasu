@@ -297,3 +297,10 @@ a:hover::after {
     top: 0;
     transform: rotate(-45deg);
   }
+
+#footer {
+    width: 100vw;
+    height: 20vw;
+    margin-top: 150px;
+    background-color:#79BD9A;
+}
