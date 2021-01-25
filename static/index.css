@@ -255,6 +255,7 @@ a:hover::after {
     width: 10vw;
     border-radius: 3vw;
     background: #333;
+    border: solid white 1px;
     transition: 0.5s;
     position: absolute;
   }
@@ -271,6 +272,7 @@ a:hover::after {
   /* アイコンがクリックされたら真ん中の線を透明にする */
   #drawer-check:checked ~ .drawer-open span {
     background:rgba(255, 255, 255, 0);
+    border: solid rgba(255, 255, 255, 0) 1px;
   }
 
   /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
